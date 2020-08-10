@@ -2,7 +2,7 @@
     "name": "execut/kcfinder",
     "description": "KCFinder web file manager",
     "version": "3.20.0",
-    "type": "library",
+    "type": "yii2-extension",
     "keywords": [
         "kcfinder",
         "finder",
