@@ -259,6 +259,9 @@ class uploader {
             } elseif (!is_readable($this->typeDir))
                 $this->backMsg("Cannot read upload folder.");
         }
+        if ($this->config['uploadURL'] === '/') {
+            $this->config['uploadURL'] = '';
+        }
     }
 
     public function upload() {
